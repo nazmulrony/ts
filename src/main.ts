@@ -15,13 +15,10 @@ class coder {
     }
 }
 
-const Rony = new coder("Nazmul Rony", "Rock", 26, "ts");
-console.log(Rony.getAge());
-
 class developer extends coder {
-    lang: string;
-    constructor(lang: string) {
-        super(name, music, age, this.language);
-        this.lang = lang;
-    }
+    // lang: string;
+    // constructor(lang: string) {
+    //     super(name, music, age, this.language);
+    //     this.lang = lang;
+    // }
 }

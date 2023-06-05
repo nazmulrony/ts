@@ -14,5 +14,5 @@ class coder {
         return `I am ${this.age}`;
     }
 }
-const Rony = new coder("Nazmul Rony", "Rock", 26, "ts");
-console.log(Rony.getAge());
+class developer extends coder {
+}
